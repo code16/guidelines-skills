@@ -1,0 +1,24 @@
+{
+    "name": "code16/guidelines-skills",
+    "description": "Code 16's coding guidelines as AI skills for Laravel Boost",
+    "keywords": ["laravel", "boost", "guidelines", "coding-standards", "skills", "ai"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Code16\\Guidelines\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Code16\\Guidelines\\GuidelinesServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
